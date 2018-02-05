@@ -1,1 +1,35 @@
+1. ¿Cual es la complejidad de tiempo de la función example()?
+int example(int n)
+{
+  int count = 0;
+  for (int i = n; i > 0; i /= 2)
+     for (int j = 0; j < i; j++)
+        count += 1;
+  return count;
+}
+Respuesta: al tener un bucle for dentro de otro hara que la complejidad sea de O(n^2)
 
+2. ¿Cual es la complejidad de tiempo de la función example2()?
+void example2(int n, int arr[])
+{
+    int i = 0, j = 0;
+    for(; i < n; ++i)
+        while(j < n && arr[i] < arr[j])
+            j++;
+}
+
+Respuesta: La complejidad llega a ser O(n^2)
+
+3. ¿Cuál es la mejor complejidad de tiempo de bubbleSort?
+Respuesta: Teniendo como ejemplo el algoritmo
+void bubbleSort(int arr[], int n)
+{
+   int i, j;
+   for (i = 0; i < n-1; i++)        
+       for (j = 0; j < n-i-1; j++) 
+           if (arr[j] > arr[j+1])
+              swap(&arr[j], &arr[j+1]);
+}
+
+En el Caso mas favorable donde los arreglos ya esten ordenados tambien hara las mismas comparaciones.
+Por lo tanto su complejidad seria O(n^2).
