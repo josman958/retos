@@ -1,0 +1,27 @@
+.cabecera{
+	text-align: center;
+
+}
+.cabecera h2{
+	margin:0.1%;
+	border: 1px solid;
+	background-color: #e1e1e1;
+}
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
