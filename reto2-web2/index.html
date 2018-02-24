@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Google.com - version Jos</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href="joss.css"/>
+</head>
+<body>
+	<div class="centrar">
+		<div style="height:233px;margin-top:89px" id="lga"><img alt="Google"  id="hplogo" src="https://www.google.com.pe/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="padding-top:109px" width="272"></div>
+	</div>
+	<div class=" row cuadros">
+		<div class="col s6 offset-s3 hoverable bordes">
+			<div class="row sin-borde-bot">
+				<div class="col s11">
+					<input type="text" class="entrada" id="entrada"  onkeypress="buscar(event)" >
+				</div>
+				<div class="col s1 voz">
+					<img src="http://www.pvhc.net/img78/mgpaqkbloyrbjpdifcwu.png"  alt="">
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="row">
+		<div class="col m6 offset-m4">
+			<div class="row  buscar-footer">	
+				<div class="col m3"><b>Buscar con Google</b></div>
+				<div class="col m3"><b>Me siento con suerte</b></div>
+			</div>
+		</div>	
+	</div>
+	<script>
+	function buscar(e) {
+		if(event.keyCode == 13)
+		{
+			
+			if (entrada!='') {}
+			location.href ="busqueda.html";
+		}
+	   }
+	</script>
+</body>
+</html>

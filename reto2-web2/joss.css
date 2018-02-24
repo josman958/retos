@@ -1,0 +1,56 @@
+.centrar{
+	display: block;
+    text-align: -webkit-center;
+}
+.cuadros{
+	width: 1139px;
+    
+    margin: auto;
+}
+.bordes{
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.sin-borde-bot{
+	margin-bottom: 0px;
+}
+.entrada{
+	border-bottom: 0 solid #9e9e9e !important;
+	margin: 0 0 0px 0 !important; 
+}
+input[type=text]:focus {
+     border-bottom: 0px solid #000 !important;
+     box-shadow: 0 0px 0 0 #000 !important;
+ }
+.voz img{
+	width: 20px;
+   
+}
+.voz{
+	margin: 5px 0px;
+}
+.buscar-footer{
+	margin-top: 10px;
+}
+.buscar-footer div{
+	background-color: #f2f2f2;
+	text-align: center;
+	border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding: 6px 10px !important;
+    margin: 11px 4px;
+}
+.buscar-footer div:active {
+  
+  border-bottom-width: 2px;
+  box-shadow: none;
+}
+@media (min-width: 700px) 
+{
+	.buscar-footer{
+		margin-left: 75px;
+	}
+}
